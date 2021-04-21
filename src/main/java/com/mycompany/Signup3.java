@@ -246,15 +246,17 @@ public class Signup3 extends JFrame implements ActionListener {
                 if(b.equals("")){
                     JOptionPane.showMessageDialog(null,"Fill all the required fields");
                 }else{
-                  //conn c1 = new conn();
+                    
+                    Conn c1 = new Conn();
                     String q1 = "insert into signup3 values('"+a+"','"+first8+"','"+first4+"','"+b+"','"+c+"')";
                     String q2 = " insert into login values('"+first8+"','"+first4+"')";
-                  //c1.s.executeUpdate(q1);
-                  //c1.s.executeUpdate(q2);
+                    c1.s.executeUpdate(q1);
+                    c1.s.executeUpdate(q2);
                     JOptionPane.showMessageDialog(null,"Card Number: " + first8 + "\n  pin: "+ first4);
+                    
 
 
-                    //new Deposit().setVisible(true);
+                    new Deposit().setVisible(true);
                     setVisible(false);
 
                 }

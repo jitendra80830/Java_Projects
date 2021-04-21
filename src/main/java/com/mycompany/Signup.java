@@ -76,14 +76,14 @@ public class Signup extends JFrame implements ActionListener {
         l13 = new JLabel("Date:");
         l13.setFont(new Font("Raleway",Font.BOLD,14));
 
+        //l14 = new JLabel("Month:");
+        //l14.setFont(new Font("Raleway",Font.BOLD,14));
+
         l14 = new JLabel("Month:");
         l14.setFont(new Font("Raleway",Font.BOLD,14));
 
-        l4 = new JLabel("Month:");
-        l4.setFont(new Font("Raleway",Font.BOLD,14));
-
-        l5 = new JLabel("Year:");
-        l5.setFont(new Font("Raleway",Font.BOLD,14));
+        l15 = new JLabel("Year:");
+        l15.setFont(new Font("Raleway",Font.BOLD,14));
 
 
         t1 = new JTextField();
@@ -262,6 +262,7 @@ public class Signup extends JFrame implements ActionListener {
                 Conn c1 = new Conn();
                 String q1 = "insert into signup values('"+a+"','"+b+"','"+ac+"','"+bc+"','"+cc+"','"+d+"','"+e+"','"+f+"','"+g+"','"+h+"','"+i+"','"+j+"','"+first+"')";
                 c1.s.executeUpdate(q1);
+                
                 new Signup2().setVisible(true);
                 setVisible(false);
             }

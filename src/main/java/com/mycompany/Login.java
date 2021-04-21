@@ -98,7 +98,7 @@ public class Login extends JFrame implements  ActionListener {
     }
     public void actionPerformed(ActionEvent ae){
         try{
-            //Conn c1 = new Conn();
+            Conn c1 = new Conn();
             String a = tf1.getText();
             String b = pf2.getText();
             String q = "select * from login where cardno = '"+a+"' and pin = '"+b+"' ";
@@ -106,7 +106,7 @@ public class Login extends JFrame implements  ActionListener {
 
             if(ae.getSource()==b1){
                 if(rs.next()){
-                    //new Transcations().setVisible(true);
+                    new Transcations().setVisible(true);
                     setVisible(false);
 
                 }else{
@@ -118,7 +118,8 @@ public class Login extends JFrame implements  ActionListener {
                 pf2.setText("");
 
             }else if(ae.getSource() == b3){
-               // new Signup().setVisible(true);
+                
+                new Signup().setVisible(true);
                 setVisible(false);
 
             }
