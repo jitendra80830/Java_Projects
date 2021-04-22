@@ -76,9 +76,6 @@ public class Signup extends JFrame implements ActionListener {
         l13 = new JLabel("Date:");
         l13.setFont(new Font("Raleway",Font.BOLD,14));
 
-        //l14 = new JLabel("Month:");
-        //l14.setFont(new Font("Raleway",Font.BOLD,14));
-
         l14 = new JLabel("Month:");
         l14.setFont(new Font("Raleway",Font.BOLD,14));
 
@@ -106,8 +103,6 @@ public class Signup extends JFrame implements ActionListener {
 
         t7 = new JTextField();
         t7.setFont(new Font("Raleway",Font.BOLD,14));
-
-
 
 
         b = new JButton("Next");
@@ -156,65 +151,89 @@ public class Signup extends JFrame implements ActionListener {
         add(l2);
         l3.setBounds(100,140,100,30);
         add(l3);
-        l4.setBounds(100,190,200,30);
-        add(l4);
-        l5.setBounds(100,240,200,30);
-        add(l5);
-        l13.setBounds(300,240,40,30);
-        add(l13);
-        l14.setBounds(410,240,50,30);
-        add(l14);
-        l7.setBounds(100,340,200,30);
-        add(l7);
-        l6.setBounds(100,290,200,30);
-        add(l6);
-        l8.setBounds(100,390,200,30);
-        add(l8);
-        l9.setBounds(100,440,200,30);
-        add(l9);
-        l10.setBounds(100,490,200,30);
-        add(l10);
-        l11.setBounds(100,540,200,30);
-        add(l11);
-        l12.setBounds(100,590,200,30);
-        add(l12);
-
-
+        
         t1.setBounds(300,140,400,30);
         add(t1);
+        
+        l4.setBounds(100,190,200,30);
+        add(l4);
+        
         t2.setBounds(300,190,400,30);
         add(t2);
-        t3.setBounds(300,340,400,30);
-        add(t3);
-        t4.setBounds(300,440,400,30);
-        add(t4);
-        t5.setBounds(300,490,400,30);
-        add(t5);
-        t6.setBounds(300,540,400,30);
-        add(t6);
-        t7.setBounds(300,590,400,30);
-        add(t7);
-
+        
+        l5.setBounds(100,240,200,30);
+        add(l5);
+        
+        l13.setBounds(300,240,40,30);
+        add(l13);
+        
+        c1.setBounds(340,240,60,30);
+        add(c1);
+        
+        l14.setBounds(410,240,50,30);
+        add(l14);
+        
+        c2.setBounds(460,240,100,30);
+        add(c2);
+        
+        l15.setBounds(570,240,40,30);
+        add(l15);
+        
+        c3.setBounds(610,240,90,30);
+        add(c3);
+        
+        l6.setBounds(100,290,200,30);
+        add(l6);
+        
         r1.setBounds(300,290,60,30);
         add(r1);
+        
         r2.setBounds(450,290,90,30);
         add(r2);
+        
+        l7.setBounds(100,340,200,30);
+        add(l7);
+        
+        t3.setBounds(300,340,400,30);
+        add(t3);
+        
+        l8.setBounds(100,390,200,30);
+        add(l8);
+        
         r3.setBounds(300,390,100,30);
         add(r3);
         r4.setBounds(450,390,100,30);
         add(r4);
         r5.setBounds(635,390,100,30);
         add(r5);
-
-        c1.setBounds(340,240,60,30);
-        add(c1);
-        c2.setBounds(460,240,100,30);
-        add(c2);
-        c3.setBounds(610,240,90,30);
-        add(c3);
-
+        
+        l9.setBounds(100,440,200,30);
+        add(l9);
+        
+        t4.setBounds(300,440,400,30);
+        add(t4);
+        
+        l10.setBounds(100,490,200,30);
+        add(l10);
+        
+        t5.setBounds(300,490,400,30);
+        add(t5);
+        
+        l11.setBounds(100,540,200,30);
+        add(l11);
+        
+        t6.setBounds(300,540,400,30);
+        add(t6);
+        
+        l12.setBounds(100,590,200,30);
+        add(l12);
+        
+        t7.setBounds(300,590,400,30);
+        add(t7);
+        
         b.setBounds(620,660,80,30);
         add(b);
+        
         b.addActionListener(this);
 
         getContentPane().setBackground(Color.WHITE);

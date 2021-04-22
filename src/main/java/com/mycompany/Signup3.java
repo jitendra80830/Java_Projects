@@ -166,7 +166,7 @@ public class Signup3 extends JFrame implements ActionListener {
         l9.setBounds(100,400,200,20);
         add(l9);
 
-        l10.setBounds(100,540,200,30);
+        l10.setBounds(100,450,200,30);
         add(l10);
 
         c1.setBounds(100,500,200,30);
@@ -190,14 +190,14 @@ public class Signup3 extends JFrame implements ActionListener {
         c7.setBounds(100,680,600,20);
         add(c7);
 
-        b1.setBounds(300,720,100,30);
+        b1.setBounds(100,350,200,30);
         add(b1);
-
+ 
         b2.setBounds(420,720,100,30);
         add(b2);
 
         getContentPane().setBackground(Color.WHITE);
-        setSize(830,830);
+        setSize(850,850);
         setLocation(500,90);
         setVisible(true);
 
