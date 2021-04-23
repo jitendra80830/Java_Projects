@@ -187,13 +187,13 @@ public class Signup3 extends JFrame implements ActionListener {
         c6.setBounds(350,600,200,30);
         add(c6);
 
-        c7.setBounds(100,680,600,20);
+        c7.setBounds(100,640,600,20);
         add(c7);
 
-        b1.setBounds(100,350,200,30);
+        b1.setBounds(300,655,100,30);
         add(b1);
  
-        b2.setBounds(420,720,100,30);
+        b2.setBounds(420,655,100,30);
         add(b2);
 
         getContentPane().setBackground(Color.WHITE);
@@ -222,7 +222,7 @@ public class Signup3 extends JFrame implements ActionListener {
         long first7 = (ran.nextLong() % 90000000L) + 4050936000000000L;
         long first8 = Math.abs(first7);
 
-        long first3 = (ran.nextLong() % 9000L) + 100L;
+        long first3 = (ran.nextLong() % 9000L) + 1000L;
         long first4 = Math.abs(first3);
 
         String b = "";
@@ -242,7 +242,7 @@ public class Signup3 extends JFrame implements ActionListener {
         String c = t1.getText();
 
         try{
-            if(ae.getSource()==b){
+            if(ae.getSource()==b1){
                 if(b.equals("")){
                     JOptionPane.showMessageDialog(null,"Fill all the required fields");
                 }else{

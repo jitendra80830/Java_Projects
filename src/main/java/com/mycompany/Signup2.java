@@ -172,7 +172,7 @@ public class Signup2 extends JFrame implements ActionListener{
         add(l7);
 
         t1.setBounds(350,390,320,30);
-        add(t3);
+        add(t1);
 
         l8.setBounds(100,440,180,30);
         add(l8);
