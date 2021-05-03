@@ -19,7 +19,7 @@ public class Withdrawl extends JFrame implements ActionListener{
         Image i2 = i1.getImage().getScaledInstance(1000, 1180, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel l3 = new JLabel(i3);
-        l3.setBounds(0, 0, 960, 1080);
+        l3.setBounds(0, 0, 850, 690);
         add(l3);
         
         l1 = new JLabel("MAXIMUM WITHDRAWAL IS RS.10,000");
@@ -56,7 +56,7 @@ public class Withdrawl extends JFrame implements ActionListener{
         b1.addActionListener(this);
         b2.addActionListener(this);
         
-        setSize(960,1080);
+        setSize(850,690);
         setLocation(500,0);
         setUndecorated(true);
         setVisible(true);

@@ -18,7 +18,7 @@ public class Pin extends JFrame implements ActionListener{
         Image i2 = i1.getImage().getScaledInstance(1000, 1180, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel l4 = new JLabel(i3);
-        l4.setBounds(0, 0, 960, 1080);
+        l4.setBounds(0, 0, 850, 690);
         add(l4);
         
         l1 = new JLabel("CHANGE YOUR PIN");
@@ -68,7 +68,7 @@ public class Pin extends JFrame implements ActionListener{
         b2.setBounds(390,633,150,35);
         l4.add(b2);
         
-        setSize(960,1080);
+        setSize(850,690);
         setLocation(500,0);
         setUndecorated(true);
         setVisible(true);

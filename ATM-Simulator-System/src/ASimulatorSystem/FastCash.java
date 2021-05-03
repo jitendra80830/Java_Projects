@@ -19,7 +19,7 @@ public class FastCash extends JFrame implements ActionListener {
         Image i2 = i1.getImage().getScaledInstance(1000, 1180, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel l3 = new JLabel(i3);
-        l3.setBounds(0, 0, 960, 1080);
+        l3.setBounds(0, 0, 850, 690);
         add(l3);
 
         l1 = new JLabel("SELECT WITHDRAWL AMOUNT");
@@ -57,7 +57,7 @@ public class FastCash extends JFrame implements ActionListener {
         b6.setBounds(390, 588, 150, 35);
         l3.add(b6);
 
-        b7.setBounds(390, 633, 150, 35);
+        b7.setBounds(280, 633, 150, 35);
         l3.add(b7);
 
         b1.addActionListener(this);
@@ -68,7 +68,7 @@ public class FastCash extends JFrame implements ActionListener {
         b6.addActionListener(this);
         b7.addActionListener(this);
 
-        setSize(960, 1080);
+        setSize(850, 690);
         setLocation(500, 0);
         setUndecorated(true);
         setVisible(true);
